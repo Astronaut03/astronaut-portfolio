@@ -1,4 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
     margin: 0px;
     font-family: 'Otomanopee One', sans-serif; 
     /* google font theke neoya link*/
@@ -20,13 +30,14 @@ p{
 }
 
 .half-width{
-    width: 46%;
+    width: 43%;
     margin-left: 3%;
     float: left;
+    padding-left: 2%;
 }
 
 .half-width img{
-    width: 100%;
+    width: 70%;
 }
 
 .top-banner{
